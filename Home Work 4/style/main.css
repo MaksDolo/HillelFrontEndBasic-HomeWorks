@@ -1,0 +1,32 @@
+* {
+    font-family: Roboto, sans-serif;
+}
+
+.header__title {
+    text-align: center;
+}
+
+.cart__list {
+    display: inline-block;
+    padding: 15px 0px;
+    box-sizing: content-box;
+    background: #afb3b08c;
+    margin: 20px 20px 20px 20px;
+    width: 300px;
+    height: 310px;
+    text-align: center;
+    border-radius: 10%;
+    font-size: 18px;
+    line-height: 22px
+}
+
+.cart__list > img {
+    width: 200px;
+}
+
+.cart__list:hover {
+    transform: scale(1.1);
+    background: #afb3b0d3;
+    cursor: pointer;
+    transition: all 0.1s linear;
+}
