@@ -1,0 +1,18 @@
+header > h1 > a {
+    text-decoration: none;
+    color: rgb(207, 207, 3);
+}
+
+header > h1 >a:hover {
+    text-decoration: underline;
+    color: rgb(207, 207, 3);
+}
+
+#main__section-list {
+    margin: 30px;
+    font-size: 18px;
+}
+
+.main__section-subtitle {
+    margin-left: 25px;
+}
