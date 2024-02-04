@@ -1,6 +1,6 @@
 body {
     font-family: Roboto, sans-serif;
-    font-weight: 600;
+    font-weight: 700;
 }
 
 .box__container-first {
@@ -9,12 +9,18 @@ body {
     max-height: 200px;
 }
 
+.box__container-first p {
+    width: 200px;
+    height: 75px;
+}
+
 .one__cube-first__container {
     width: 200px;
     height: 200px;
     background-color: #FC8F8F;
     color: white;
-    font-size: 55px;
+    font-size: 64px;
+    line-height: 1.2;
     text-align: center;
     float: left;
 }
@@ -24,7 +30,8 @@ body {
     height: 200px;
     background-color: #FC8F8F;
     color: white;
-    font-size: 55px;
+    font-size: 64px;
+    line-height: 1.2;
     text-align: center;
     float: right;
 }
@@ -41,9 +48,15 @@ body {
     height: 200px;
     background-color: #FC8F8F;
     color: white;
-    font-size: 55px;
+    font-size: 64px;
+    line-height: 1.2;
     text-align: center;
     float: left;
+}
+
+.one__cube-second__container p {
+    width: 200px;
+    height: 75px;
 }
 
 .cube-second__container {
@@ -51,10 +64,20 @@ body {
     height: 100px;
     background-color: #FC8F8F;
     color: white;
-    font-size: 34px;
+    font-size: 36px;
+    line-height: 1.2;
     text-align: center;
-    float: right;
+    float: left;
     margin-left: 15px;
+}
+
+.cube-second__container p {
+    width: 100px;
+    height: 37.5px;
+}
+
+.cube-second-wrapper {
+    float: right;
 }
 
 .clearfix::after {
@@ -74,10 +97,16 @@ body {
     height: 200px;
     background-color: #FC8F8F;
     color: white;
-    font-size: 55px;
+    font-size: 64px;
+    line-height: 1.2;
     text-align: center;
     float: left;
     margin-right: 20px;
+}
+
+.one__cube-third__container p {
+    width: 200px;
+    height: 75px;
 }
 
 .two__cube-third__container {
@@ -85,8 +114,18 @@ body {
     height: 200px;
     background-color: #FC8F8F;
     color: white;
-    font-size: 55px;
+    font-size: 64px;
+    line-height: 1.2;
     text-align: center;
-    float: right;
+    float: left;
     margin-left: 20px;
+}
+
+.two__cube-third__container p {
+    width: 200px;
+    height: 75px;
+}
+
+.cube-container-wrapper {
+    float: right;
 }
