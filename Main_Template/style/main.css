@@ -20,11 +20,11 @@
     text-decoration: underline;
 }
 
-.header-wrapper a{
+.header-wrapper a {
     margin-right: 42px;
 }
 
-.first-block-container h1{
+.first-block-container h1 {
     font-weight: 500;
     font-size: 48px;
     line-height: 1.6;
@@ -64,7 +64,7 @@
     margin-right: auto;
 }
 
-.about-block-wrapper h2{
+.about-block-wrapper h2 {
     font-weight: 500;
     font-size: 32px;
     line-height: 1.2;
@@ -151,7 +151,7 @@
 .footer-block {
     background-color: #34547A;
     background-size: cover;
-    width: 100%;
+    max-width: 100%;
     max-height: 151px;
     padding: 50px 0px 50px 406px;
     margin-top: 100px;
