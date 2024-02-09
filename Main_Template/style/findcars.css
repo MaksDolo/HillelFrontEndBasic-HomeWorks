@@ -14,8 +14,7 @@ body {
     flex-direction: column;
     margin-left: auto;
     margin-right: auto;
-    margin-top: 50px;
-    margin-bottom: 50px;
+    overflow: hidden;
 }
 
 span {
@@ -24,13 +23,46 @@ span {
 
 /* ====================================================== */
 
+.header-container {
+    max-height: 100px;
+    margin-top: 30px;
+}
+
+.header-links {
+    text-decoration: none;
+    margin-right: 30px;
+    color: white;
+    background-color: rgb(112, 255, 155);
+    padding: 10px 20px;
+    border-radius: 10px;   
+    transition: all 0.3s ease-in-out;
+}
+
+.header-links:hover {
+    border-radius: 15px;
+    background-color: rgb(21, 218, 80);
+}
+
+.active-link {
+    background-color: rgb(21, 218, 80);
+    border-radius: 30px;
+}
+
+.active-link:hover {
+    border-radius: 30px;
+}
+
+/* ========================================================== */
+
 .container {
     background-color: #fff;
     box-shadow: 8px 8px 40px -10px rgba(34, 80, 71, 0.6);
     border-radius: 20px;
     width: 800px;
     max-height: 100%;
-    padding: 40px;
+    padding: 30px;
+    margin-top: 100px;
+    margin-bottom: 50px;
 }
 
 .container h1 {
