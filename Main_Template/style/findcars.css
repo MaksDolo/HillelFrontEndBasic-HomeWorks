@@ -1,0 +1,367 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    background-color: #fff;
+    background: linear-gradient(to right, #e2e2e2, #c9ffd2);
+    width: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 50px;
+    margin-bottom: 50px;
+}
+
+span {
+    display: block;
+}
+
+/* ====================================================== */
+
+.container {
+    background-color: #fff;
+    box-shadow: 8px 8px 40px -10px rgba(34, 80, 71, 0.6);
+    border-radius: 20px;
+    width: 800px;
+    max-height: 100%;
+    padding: 40px;
+}
+
+.container h1 {
+    text-align: center;
+    font-size: 32px;
+    margin-bottom: 80px;
+    letter-spacing: 1px;
+    line-height: 1.2;
+}
+
+.type-car-tittle {
+    margin-bottom: 10px;
+    font-size: 16px;
+    font-weight: 500;
+    line-height: 1.6;
+    letter-spacing: 1px;
+}
+
+.type-car {
+    width: 100%;
+    padding: 10px;
+    outline: none;
+    border: 0;
+    background-color: #fff;
+    box-shadow: 8px 8px 40px -10px rgba(34, 60, 80, 0.6);
+    background: linear-gradient(to right, #d1ffdf, #a9fdaf);
+    border-radius: 5px;
+    text-align: center;
+    font-size: 16px;
+    letter-spacing: 2px;
+    font-family: Montserrat;
+}
+
+.car-label-container {
+    margin-top: 30px;
+}
+
+.car-label-tittle {
+    margin-bottom: 10px;
+    font-size: 16px;
+    font-weight: 500;
+    line-height: 1.6;
+    letter-spacing: 1px;
+}
+
+.label-car {
+    width: 100%;
+    padding: 10px;
+    outline: none;
+    border: 0;
+    background-color: #fff;
+    box-shadow: 8px 8px 40px -10px rgba(34, 60, 80, 0.6);
+    background: linear-gradient(to right, #d1ffdf, #a9fdaf);
+    border-radius: 5px;
+    text-align: center;
+    font-size: 16px;
+    font-family: Montserrat;
+}
+
+.car-country-container {
+    margin-top: 30px;
+}
+
+.car-contry-tittle {
+    margin-bottom: 10px;
+    font-size: 16px;
+    font-weight: 500;
+    line-height: 1.6;
+    letter-spacing: 1px;
+}
+
+.coutry-car {
+    width: 100%;
+    padding: 10px;
+    outline: none;
+    border: 0;
+    background-color: #fff;
+    box-shadow: 8px 8px 40px -10px rgba(34, 60, 80, 0.6);
+    background: linear-gradient(to right, #d1ffdf, #a9fdaf);
+    border-radius: 5px;
+    text-align: center;
+    font-size: 16px;
+    margin-bottom: 30px;
+    font-family: Montserrat;
+}
+
+/* ===================================================================== */
+
+.car-price-container {
+    max-width: 100%;
+}
+
+.car-price-title {
+    display: flex;
+    justify-content: center;
+    font-size: 16px;
+    font-weight: 600;
+    line-height: 1.6;
+    letter-spacing: 1px;
+    margin-bottom: 10px;
+}
+
+.input-price-container {
+    display: flex;
+    flex-direction: column;
+}
+
+.car-price-from {
+    padding: 10px;
+    outline: none;
+    border: 0;
+    background-color: #fff;
+    box-shadow: 8px 8px 40px -10px rgba(34, 60, 80, 0.6);
+    background: linear-gradient(to right, #d1ffdf, #a9fdaf);
+    border-radius: 10px;
+    text-align: center;
+    font-size: 16px;
+    margin-bottom: 20px;
+    font-family: Montserrat;
+}
+
+.car-price-to {
+    padding: 10px;
+    outline: none;
+    border: 0;
+    background-color: #fff;
+    box-shadow: 8px 8px 40px -10px rgba(34, 60, 80, 0.6);
+    background: linear-gradient(to right, #d1ffdf, #a9fdaf);
+    border-radius: 10px;
+    text-align: center;
+    font-size: 16px;
+    font-family: Montserrat;
+}
+
+.car-year-container {
+    max-width: 100%;
+}
+
+.car-year-title {
+    display: flex;
+    justify-content: center;
+    font-size: 16px;
+    font-weight: 600;
+    line-height: 1.6;
+    letter-spacing: 1px;
+    margin-bottom: 10px;
+}
+
+.input-year-container {
+    display: flex;
+    flex-direction: column;
+}
+
+.car-year-from {
+    padding: 10px;
+    outline: none;
+    border: 0;
+    background-color: #fff;
+    box-shadow: 8px 8px 40px -10px rgba(34, 60, 80, 0.6);
+    background: linear-gradient(to right, #d1ffdf, #a9fdaf);
+    border-radius: 10px;
+    text-align: center;
+    font-size: 16px;
+    margin-bottom: 20px;
+    font-family: Montserrat;
+}
+
+.car-year-to {
+    padding: 10px;
+    outline: none;
+    border: 0;
+    background-color: #fff;
+    box-shadow: 8px 8px 40px -10px rgba(34, 60, 80, 0.6);
+    background: linear-gradient(to right, #d1ffdf, #a9fdaf);
+    border-radius: 10px;
+    text-align: center;
+    font-size: 16px;
+    font-family: Montserrat;
+}
+
+.car-year-price-container {
+    display: flex;
+    justify-content: space-around;
+}
+
+/* ================================================================================ */
+
+.buttons-form {
+    display: flex;
+    justify-content: flex-start;
+    margin-top: 80px;
+
+}
+
+.button-submit {
+    font-size: 18px;
+    font-weight: 400;
+    background-color: rgb(62, 250, 118);
+    padding: 10px 20px;
+    border-radius: 10px;
+    outline: none;
+    border: 0;
+    color: white;
+    cursor: pointer;
+    transition: background-color 0.3s ease-in-out;
+    margin-right: 20px;
+    font-family: Montserrat;
+    font-weight: 400;
+    line-height: 1.6;
+    letter-spacing: 0.5px;
+}
+
+.button-submit:hover {
+    background-color: rgb(161, 254, 189);
+}
+
+.button-reset {
+    font-size: 18px;
+    font-weight: 400;
+    background-color: rgb(62, 250, 118);
+    padding: 10px 20px;
+    border-radius: 10px;
+    outline: none;
+    border: 0;
+    color: white;
+    cursor: pointer;
+    transition: background-color 0.3s ease-in-out;
+    margin-right: 20px;
+    font-family: Montserrat;
+    font-weight: 400;
+    line-height: 1.6;
+    letter-spacing: 0.5px;
+}
+
+.button-reset:hover {
+    background-color: rgb(161, 254, 189);
+}
+
+/* ============================================================= */
+
+.state-car-container {
+    max-width: 100%;
+    margin-top: 30px;
+    margin-top: 30px;
+}
+
+.car-state-title {
+    display: flex;
+    justify-content: center;
+    font-size: 16px;
+    font-weight: 600;
+    line-height: 1.6;
+    letter-spacing: 1px;
+}
+
+.input-state-car {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    margin-top: 20px;
+}
+
+.state-car {
+    margin-right: 10px;
+    box-shadow: 8px 8px 40px -10px rgba(34, 60, 80, 0.6);
+    background: linear-gradient(to right, #d1ffdf, #a9fdaf);
+    border-radius: 10px;
+    padding: 10px;
+    text-align: center;
+    margin-bottom: 10px;
+}
+
+/* ========================================= */
+
+.fuel-container {
+    max-width: 100%;
+    margin-top: 30px;
+    margin-top: 30px;
+}
+
+.car-fuel-title {
+    display: flex;
+    justify-content: center;
+    font-size: 16px;
+    font-weight: 600;
+    line-height: 1.6;
+    letter-spacing: 1px;
+}
+
+.input-fuel-container {
+    display: flex;
+    flex-direction: column;
+    margin-top: 30px;
+    max-width: 100%;
+}
+
+.fuel-input {
+    margin-right: 10px;
+    box-shadow: 8px 8px 40px -10px rgba(34, 60, 80, 0.6);
+    background: linear-gradient(to right, #d1ffdf, #a9fdaf);
+    border-radius: 10px;
+    padding: 10px;
+    text-align: center;
+    margin-bottom: 10px;
+}
+
+/* ========================================================== */
+
+.car-shift-container {
+    margin-top: 30px;
+}
+
+.car-shift-tittle {
+    margin-bottom: 10px;
+    font-size: 16px;
+    font-weight: 600;
+    line-height: 1.6;
+    letter-spacing: 1px;
+    text-align: center;
+}
+
+.shift-car {
+    width: 100%;
+    padding: 10px;
+    outline: none;
+    border: 0;
+    background-color: #fff;
+    box-shadow: 8px 8px 40px -10px rgba(34, 60, 80, 0.6);
+    background: linear-gradient(to right, #d1ffdf, #a9fdaf);
+    border-radius: 5px;
+    text-align: center;
+    font-size: 16px;
+    font-family: Montserrat;
+}
