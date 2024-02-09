@@ -12,9 +12,8 @@ body {
     align-items: center;
     justify-content: center;
     flex-direction: column;
-    margin-left: auto;
-    margin-right: auto;
-    overflow: hidden;
+    margin: auto;
+    overflow-x: hidden;
 }
 
 span {
@@ -25,7 +24,7 @@ span {
 
 .header-container {
     max-height: 100px;
-    margin-top: 30px;
+    margin-top: 50px;
 }
 
 .header-links {
@@ -61,7 +60,7 @@ span {
     width: 800px;
     max-height: 100%;
     padding: 30px;
-    margin-top: 200px;
+    margin-top: 150px;
     margin-bottom: 50px;
 }
 

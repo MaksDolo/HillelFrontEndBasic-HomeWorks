@@ -14,13 +14,14 @@ body {
     align-items: center;
     margin-left: auto;
     margin-right: auto;
-    overflow: hidden;
+    overflow-y: scroll;
+    overflow-x: hidden;
 }
 
 /* =================================================== */
 
 .header-container {
-    margin-top: 30px;
+    margin-top: 50px;
     height: 100px;
 }
 
