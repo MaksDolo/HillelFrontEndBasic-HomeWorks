@@ -3,38 +3,22 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link href="https://fonts.googleapis.com/css?family=Montserrat:regular,500,600,700,800,900$display=swap" rel="stylesheet" />
-    <link rel="stylesheet" href="./style/fonts.css">
     <link rel="stylesheet" href="./style/main.css">
-    <title>Register</title>
+    <title>Table HTML</title>
 </head>
 <body>
-    <header>
-        <div class="header-container">
-            <nav>
-                <a class="header-links active-link" href="index.html">Register</a>
-                <a class="header-links" href="./pages/singin.html">Sing Up</a>
-                <a class="header-links" href="./pages/findcars.html">Find Cars</a>
-            </nav>
-        </div>
-    </header>
-    <main>
-        <section class="form-block">
-            <div class="container">
-                <form action="https://fom.in.ua/echo" method="post">
-                    <h1>Register</h1>
-                    <div class="input-container">
-                        <input required autocomplete="on" name="email" placeholder="Email" class="mail-form" id="email" type="email">
-                        <input required minlength="8" autocomplete="on" name="password" placeholder="Password" class="pass-form" id="pass" type="password">
-                        <input required minlength="8" name="password-two" placeholder="Confirm the password" class="pass-form-pass" id="pass-pass" type="password">
-                    </div>
-                    <div class="buttons-form">
-                        <button class="button-submit" type="submit">Register</button>
-                        <button class="button-reset" type="reset">Reset</button>
-                    </div>
-                </form>
-            </div>
-        </section>
-    </main>
+    <table border="" class="table">
+        <tr class="header-table">
+            <th colspan="3">My Firts Table</th>
+        </tr>
+        <tr>
+            <t colspan="0">First cell</t>
+            <td>Second cell</td>
+            <td rowspan="3">6 cell marged together</td>
+        </tr>
+        <tr>
+            <td>2 cell marged into one</td>
+        </tr>
+    </table>
 </body>
 </html>
