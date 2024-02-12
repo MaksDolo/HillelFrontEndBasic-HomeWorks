@@ -3,3 +3,44 @@
     padding: 0;
     box-sizing: border-box;
 }
+
+body {
+    font-family: Montserrat, sans-serif;
+}
+
+.table {
+    position: relative;
+    top: 100px;
+    left: 100px;
+    max-width: 100%;
+}
+
+.header-table th {
+    border: 1px solid;
+    text-align: center;
+    font-weight: 500;
+    text-transform: uppercase;
+    letter-spacing: 1px;
+    line-height: 1.2;
+    padding: 10px;
+}
+
+.blue-block-table {
+    background-color: rgb(91, 91, 253);
+}
+
+.blue-block-table td {
+    padding: 10px;
+    text-align: center;
+    border: 1px solid;
+}
+
+.yellow-block-table {
+    background-color: rgb(252, 252, 118);
+}
+
+.yellow-block-table td {
+    padding: 10px;
+    text-align: center;
+    border: 1px solid;
+}
