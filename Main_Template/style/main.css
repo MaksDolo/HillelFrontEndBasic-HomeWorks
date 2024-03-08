@@ -154,8 +154,8 @@ body {
 .prefered-block-container {
     width: 100%;
     background-color: #FF9C7D;
-    padding-top: 95px;
-    padding-bottom: 95px;
+    padding-top: 100px;
+    padding-bottom: 100px;
     margin-top: 200px;
 }
 
@@ -166,6 +166,8 @@ body {
 }
 
 .prefered-block-text {
+    margin-left: auto;
+    margin-right: auto;
     width: 720px;
     text-align: center;
     font-size: 35px;
@@ -175,3 +177,54 @@ body {
 
 /* =====================CONTROL-MAIN-BLOCK============================= */
 
+.control-main-block-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    max-width: 1330px;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 100px;
+}
+
+.control-main-block-text-wrapper {
+    margin-right: 170px;
+}
+
+.control-main-block-text-wrapper h2{
+    width: 493px;
+    font-size: 50px;
+    font-weight: 600;
+    line-height: 1.2;
+    margin-bottom: 30px;
+}
+
+.control-main-block-text-wrapper p{
+    width: 491px;
+    font-size: 20px;
+    line-height: 1.5;
+    margin-bottom: 30px;
+}
+
+.control-main-block-text-wrapper a:not(.control-link-bold) {
+    color: #000000;
+    transition: all 0.3s ease;
+}
+
+.control-link-bold {
+    text-decoration: none;
+    font-size: 20px;
+    font-weight: 600;
+    line-height: 1.5;
+    color: #000000;
+}
+
+/* ===========================CONTROL-BLOCK-HOVERS========================== */
+
+.control-link-bold:hover {
+    text-decoration: underline;
+}
+
+.control-main-block-text-wrapper a:not(.control-link-bold):hover {
+    color: #FF6336;
+}
