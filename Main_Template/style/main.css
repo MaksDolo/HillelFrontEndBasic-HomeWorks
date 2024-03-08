@@ -311,4 +311,45 @@ body {
     color: #FF6336;
 }
 
-/* ======================= */
+/* =======================LESS-BLOCK========================= */
+
+.less-block-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    max-width: 1330px;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 250px;
+}
+.less-block-text-wrapper {
+    margin-left: 138px;
+}
+
+.less-block-text-wrapper h2 {
+    width: 348px;
+    font-size: 50px;
+    line-height: 1.2;
+    font-weight: 600;
+    margin-bottom: 25px;
+}
+
+.less-block-text-wrapper p{
+    width: 520px;
+    font-size: 20px;
+    line-height: 1.5;
+    margin-bottom: 35px;
+}
+
+.less-block-text-wrapper a:not(.control-link-bold){
+    color: #000000;
+    transition: all 0.3s ease;
+}
+
+/* ======================LESS-BLOCK-HOVERS=========================== */
+
+.less-block-text-wrapper a:not(.control-link-bold):hover{
+    color: #FF6336;
+}
+
+/* ========================== */
