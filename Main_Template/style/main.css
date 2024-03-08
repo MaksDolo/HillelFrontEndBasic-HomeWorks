@@ -14,7 +14,8 @@ body {
     display: flex;
     align-items: center;
     justify-content: space-between;
-    max-width: 1330px;
+    flex-wrap: wrap;
+    max-width: 1440px;
     margin-left: auto;
     margin-right: auto;
     margin-top: 30px;
@@ -34,14 +35,14 @@ body {
 }
 
 .button-wrapper a:not(.orange-button){
-    margin-right: 10px;
     text-decoration: none;
     color: #000000;
     font-weight: 600;
-    font-size: 16px;    
+    font-size: 16px;
     line-height: 2.8;
-    padding: 10px 36px;
-    border: 1px solid #00000065;
+    padding: 10px 26px;
+    margin-right: 10px;
+    border: 1px solid #000000;
     transition: all 0.3s ease-in-out;
 }
 
@@ -71,11 +72,13 @@ body {
     border-radius: 10px;
 }
 
-/* ==========================FIRST-MAIN-BLOCK=============================== */
+/* ==========================ACCELERATE-MAIN-BLOCK=============================== */
 
 .accelerate-block-container {
     display: flex;
     align-items: center;
+    justify-content: center;
+    flex-wrap: wrap;
     max-width: 1330px;
     margin-left: auto;
     margin-right: auto;
@@ -111,11 +114,62 @@ body {
     margin-bottom: 25px;
 }
 
-.button-wrapper a{
+.acceleration-block-buttons a:not(.orange-button-main-block){
+    text-decoration: none;
+    color: #000000;
+    font-weight: 600;
+    font-size: 16px;
+    line-height: 2.8;
+    padding: 18px 20px;
+    border: 1px solid #000000;
+    transition: all 0.3s ease-in-out;
 }
 
-.orange-button {
+.orange-button-main-block {
+    text-decoration: none;
+    background-color: #FF6336;
+    color: white;
+    font-weight: 600;
+    font-size: 16px;
+    line-height: 2.8;
+    padding: 18px 30px;
+    border: 1px solid #FF6336;
+    margin-right: 10px;
+    transition: all 0.3s ease-in-out;
 }
 
 
+/* ====================ACCELERATE-BLOCK-HOVERS====================== */
+
+.acceleration-block-buttons a:not(.orange-button-main-block):hover {
+    border-radius: 10px;
+}
+
+.orange-button-main-block:hover {
+    border-radius: 10px;
+}
+
+/* ======================PREFERED-MAIN-BLOCK=================================== */
+
+.prefered-block-container {
+    width: 100%;
+    background-color: #FF9C7D;
+    padding-top: 95px;
+    padding-bottom: 95px;
+    margin-top: 200px;
+}
+
+.prefered-content-block-wrapper {
+    max-width: 1330px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.prefered-block-text {
+    width: 720px;
+    text-align: center;
+    font-size: 35px;
+    line-height: 1.2;
+    margin-bottom: 70px;
+}
 
