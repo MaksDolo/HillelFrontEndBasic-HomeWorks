@@ -352,4 +352,53 @@ body {
     color: #FF6336;
 }
 
-/* ========================== */
+/* ============CANYOU-BLOCK============== */
+
+.canyou-block-container {
+    width: 1330px;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 270px;
+}
+
+.canyou-head-text-wrapper {
+    display: flex;
+    justify-content: center;
+    margin-bottom: 60px;
+}
+
+.canyou-head-text-wrapper h2 {
+    font-size: 50px;
+    line-height: 1.2;
+}
+
+.canyou-cart-block-wrapper {
+    display: flex;
+    align-items: center;
+}
+
+.onecart-wrapper {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    text-align: center;
+    max-width: 330px;
+}
+
+.onecart-wrapper img {
+    margin-bottom: 26px;
+}
+
+.onecart-wrapper h3 {
+    margin-bottom: 20px;
+}
+
+.twocart-wrapper{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    text-align: center;
+    max-width: 330px;
+}
