@@ -255,6 +255,7 @@ body {
 .shorten-text-wrapper p{
     width: 450px;
     font-size: 20px;
+    line-height: 1.5;
     margin-bottom: 36px;
 }
 
@@ -268,3 +269,46 @@ body {
 .shorten-text-wrapper a:not(.control-link-bold):hover {
     color: #FF6336;
 }
+
+/* =====================QUALITY-BLOCK============================== */
+
+.quality-block-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    max-width: 1330px;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 250px;
+}
+
+.quality-block-text-wrapper {
+    margin-right: 138px;
+}
+
+.quality-block-text-wrapper h2 {
+    width: 397px;
+    font-size: 50px;
+    line-height: 1.2;
+    margin-bottom: 25px;
+}
+
+.quality-block-text-wrapper p{
+    width: 507px;
+    font-size: 20px;
+    line-height: 1.5;
+    margin-bottom: 36px;
+}
+
+.quality-block-text-wrapper a:not(.control-link-bold) {
+    color: #000000;
+    transition: all 0.3s ease;
+}
+
+/* ==================QUALITY-BLOCK-HOVERS================ */
+
+.quality-block-text-wrapper a:not(.control-link-bold):hover {
+    color: #FF6336;
+}
+
+/* ======================= */
