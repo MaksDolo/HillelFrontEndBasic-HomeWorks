@@ -355,16 +355,23 @@ body {
 /* ============CANYOU-BLOCK============== */
 
 .canyou-block-container {
+    width: 100%;
+    background-color: #FFF8E4;
+    padding-top: 120px;
+    padding-bottom: 150px;
+    margin-top: 270px;
+}
+
+.canyou-block-content {
     width: 1330px;
     margin-left: auto;
     margin-right: auto;
-    margin-top: 270px;
 }
 
 .canyou-head-text-wrapper {
     display: flex;
     justify-content: center;
-    margin-bottom: 60px;
+    margin-bottom: 79px;
 }
 
 .canyou-head-text-wrapper h2 {
@@ -372,10 +379,20 @@ body {
     line-height: 1.2;
 }
 
-.canyou-cart-block-wrapper {
+.canyou-cart-block-wrapper-first {
     display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-bottom: 78px;
+}
+
+.canyou-cart-block-wrapper-second {
+    display: flex;
+    justify-content: center;
     align-items: center;
 }
+
+/* =================ONECART=================== */
 
 .onecart-wrapper {
     display: flex;
@@ -383,7 +400,7 @@ body {
     align-items: center;
     flex-direction: column;
     text-align: center;
-    max-width: 330px;
+    max-width: 303px;
 }
 
 .onecart-wrapper img {
@@ -391,8 +408,17 @@ body {
 }
 
 .onecart-wrapper h3 {
+    font-size: 25px;
+    line-height: 1.4;
     margin-bottom: 20px;
 }
+
+.onecart-wrapper p {
+    font-size: 18px;
+    line-height: 1.4;
+}
+
+/* ===========TWOCART=============== */
 
 .twocart-wrapper{
     display: flex;
@@ -401,4 +427,138 @@ body {
     flex-direction: column;
     text-align: center;
     max-width: 330px;
+    margin-left: 110px;
+}
+
+.twocart-wrapper img {
+    margin-bottom: 21px;
+}
+
+.twocart-wrapper h3 {
+    font-size: 25px;
+    line-height: 1.4;
+    margin-bottom: 20px;
+}
+
+.twocart-wrapper p {
+    font-size: 18px;
+    line-height: 1.4;
+}
+
+.twocart-wrapper a {
+    color: #000000;
+    transition: all 0.3s ease;
+}
+
+/* ===============THREECART=============== */
+
+.threecart-wrapper {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    text-align: center;
+    max-width: 281px;
+    margin-left: 110px;
+}
+
+.threecart-wrapper img {
+    margin-bottom: 23px;
+}
+
+.threecart-wrapper h3 {
+    font-size: 25px;
+    line-height: 1.4;
+    margin-bottom: 23px;
+}
+
+.threecart-wrapper p {
+    font-size: 18px;
+    line-height: 1.4;
+}
+
+/* =====================FOURCART========================== */
+
+.fourcart-wrapper {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    text-align: center;
+    max-width: 309px;
+}
+
+.fourcart-wrapper img {
+    margin-bottom: 26px;
+}
+
+.fourcart-wrapper h3 {
+    font-size: 25px;
+    line-height: 1.4;
+    margin-bottom: 20px;
+}
+
+.fourcart-wrapper p {
+    font-size: 18px;
+    line-height: 1.4;
+}
+
+/* ====================FIVECART======================== */
+
+.fivecart-wrapper {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    text-align: center;
+    max-width: 310px;
+    margin-left: 120px;
+}
+
+.fivecart-wrapper img {
+    margin-bottom: 23px;
+}
+
+.fivecart-wrapper h3 {
+    font-size: 25px;
+    line-height: 1.4;
+    margin-bottom: 23px;
+}
+
+.fivecart-wrapper p {
+    font-size: 18px;
+    line-height: 1.4;
+}
+
+/* ===============SIXCART====================== */
+
+.sixcart-wrapper {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    text-align: center;
+    max-width: 326px;
+    margin-left: 120px;
+}
+
+.sixcart-wrapper img {
+    margin-bottom: 23px;
+}
+
+.sixcart-wrapper h3 {
+    font-size: 25px;
+    line-height: 1.4;
+    margin-bottom: 23px;
+}
+
+.sixcart-wrapper p {
+    font-size: 18px;
+    line-height: 1.4;
+}
+
+/* =============CART-HOVERS============= */
+
+.twocart-wrapper a:hover {
+    color: #FF6336;
 }
