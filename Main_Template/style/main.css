@@ -872,4 +872,123 @@ body {
     border-radius: 10px;
 }
 
-/* ================================= */
+/* ==============CASE-BLOCK=================== */
+
+.case-block-container {
+    display: flex;
+    justify-content: space-between;
+    max-width: 1330px;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 92px;
+    margin-bottom: 48px;
+    border-bottom: 1px solid #000000;
+    padding-bottom: 95px;
+}
+
+/* =================CASE-BLOCK-ONE====================== */
+
+.case-block-one-wrapper {
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    align-items: flex-start;
+}
+
+.case-block-one-wrapper h2 {
+    font-size: 40px;
+    font-weight: 600;
+    line-height: 1.2;
+    margin-bottom: 28px;
+}
+
+.case-block-one-wrapper img:not(.not-margin) {
+    margin-bottom: 31px;
+}
+
+.case-block-one-wrapper p{
+    width: 290px;
+    font-size: 20px;
+    line-height: 1.5;
+    margin-top: 11px;
+    margin-bottom: 15px;
+}
+
+.case-block-one-wrapper a{
+    text-decoration: none;
+    color: #000000;
+    font-weight: 600;
+    font-size: 20px;
+    line-height: 1.5;
+}
+
+/* =================CASE-BLOCK-LINKS====================== */
+
+.case-block-links-wrapper {
+    display: flex;
+}
+
+.one-case-block-link {
+    display: flex;
+    flex-direction: column;
+    margin-left: 100px;
+}
+
+.one-case-block-link h3 {
+    font-size: 20px;
+    line-height: 1.2;
+    font-weight: 600;
+    margin-bottom: 21px;
+    cursor: pointer;
+}
+
+.one-case-block-link a {
+    text-decoration: none;
+    color: #000000;
+    font-size: 15px;
+    line-height: 1;
+    margin-bottom: 15px;
+}
+
+/* =============================LINKS-HOVERS================== */
+
+.one-case-block-link a:hover {
+    text-decoration: underline;
+}
+
+/* =====================CASE-BLOCK-HOVERS===================== */
+
+.case-block-one-wrapper a:hover {
+    text-decoration: underline;
+}
+
+/* ============================================FOOTER============================================== */
+
+.footer-container {
+    display: flex;
+    justify-content: space-between;
+    max-width: 1330px;
+    margin-left: auto;
+    margin-right: auto;
+    margin-bottom: 48px;
+    padding-right: 76px;
+}
+
+.footer-left-wrapper {
+    display: flex;
+    align-items: center;
+}
+
+.footer-left-wrapper p {
+    font-size: 12px;
+    line-height: 1.2;
+    margin-left: 14px;
+    width: 301px;
+}
+
+.footer-right-wrapper p {
+    font-size: 12px;
+    line-height: 1.2;
+}
+
+/* ===================================================================================== */
