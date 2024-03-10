@@ -821,3 +821,55 @@ body {
 .integrate-block-link a:hover {
     border-radius: 10px;
 }
+
+/* ====================WHY-BLOCK======================= */
+
+.why-block-container {
+    width: 100%;
+    background-color: #FF9C7D;
+    margin-top: 150px;
+    padding-top: 140px;
+    padding-bottom: 161px;
+}
+
+.why-block-content {
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    text-align: center;
+    max-width: 1330px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.why-block-content h2{
+    font-size: 65px;
+    line-height: 1.2;
+    font-weight: 600;
+    margin-bottom: 29px;
+}
+
+.why-block-content p {
+    font-size: 20px;
+    line-height: 1.5;
+    margin-bottom: 54px;
+}
+
+.why-block-link a{
+    text-decoration: none;
+    color: #FFF;
+    background-color: #000000;
+    font-size: 17px;
+    font-weight: 600;
+    line-height: 3.5;
+    padding: 20px 40px;
+    transition: all 0.3s ease-in-out;
+}
+
+/* ===============WHY-BLOCK-HOVERS================== */
+
+.why-block-link a:hover {
+    border-radius: 10px;
+}
+
+/* ================================= */
